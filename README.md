@@ -1,6 +1,4 @@
-## 6. 🔐 Generátor Hesel (Security)
-Nástroj pro tvorbu silných a bezpečných hesel.
-* **Soubor:** `heslo.py`
-* **Jak spustit:**
-  ```bash
-  python heslo.py
+## 🚀 RYCHLÝ START
+Pro spuštění hlavního menu se všemi aplikacemi zadejte:
+```bash
+python main.py
