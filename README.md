@@ -1,6 +1,6 @@
-## 5. 📸 Černobílý Filtr (Image Processing)
-Jednoduchý nástroj na úpravu fotek.
-* **Soubor:** `filtr.py`
+## 6. 🔐 Generátor Hesel (Security)
+Nástroj pro tvorbu silných a bezpečných hesel.
+* **Soubor:** `heslo.py`
 * **Jak spustit:**
   ```bash
-  python filtr.py
+  python heslo.py
