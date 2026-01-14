@@ -1,6 +1,6 @@
-## 4. 🤖 Robotický Hlasatel (Text-to-Speech)
-Program, který přečte zadaný text a uloží ho jako zvukový soubor MP3.
-* **Soubor:** `robot.py`
+## 5. 📸 Černobílý Filtr (Image Processing)
+Jednoduchý nástroj na úpravu fotek.
+* **Soubor:** `filtr.py`
 * **Jak spustit:**
   ```bash
-  python robot.py
+  python filtr.py
