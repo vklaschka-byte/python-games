@@ -1,11 +1,9 @@
-# 🎮 Python Hry
+# 🎮 Moje Python Hry a Nástroje
 
-Sbírka her naprogramovaných v Pythonu.
+Vítejte v mé sbírce Python projektů! Tento repozitář obsahuje interaktivní hry i užitečné nástroje.
 
-## 1. Kámen, Nůžky, Papír (Webová verze)
-Interaktivní hra proti počítači s grafickým rozhraním.
+## 📦 První krok: Instalace
+Aby vše fungovalo, je potřeba nainstalovat knihovny. Otevřete terminál a zadejte:
 
-### 🚀 Jak spustit
-1. Nainstalujte knihovny:
-   ```bash
-   pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
