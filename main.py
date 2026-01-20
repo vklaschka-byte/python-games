@@ -6,6 +6,8 @@ import wiki_bot
 import robot
 import filtr
 import heslo
+import pocasi
+import detektiv
 
 def vycistit_obrazovku():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -22,6 +24,8 @@ def main():
         print("4. 🤖 Mluvící Robot (Text-to-Speech)")
         print("5. 📸 Černobílý Filtr na fotky")
         print("6. 🔐 Generátor hesel")
+        print("7.🌦️ Předpověď počasí")
+        print("8.🕵️‍♀️ Detekce obličejů na fotce")
         print("0. 🚪 Konec")
         print("==========================================")
         
@@ -42,6 +46,10 @@ def main():
             filtr.main()
         elif volba == "6":
             heslo.main()
+        elif volba == "7":
+            pocasi.main ()
+        elif volba == "8":
+            detektiv.main()
         elif volba == "0":
             print("Díky, že používáš Python! Ahoj. 👋")
             break
