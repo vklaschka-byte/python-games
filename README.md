@@ -6,6 +6,7 @@
 
 Vítejte v mé sbírce aplikací! Tento repozitář ukazuje mou cestu od základů Pythonu až po pokročilejší projekty s umělou inteligencí a zpracováním dat.
 Ve sbírce najdete:
+
 | Číslo | Název nástroje | Popis | Technologie |
 | :---: | :--- | :--- | :--- |
 | 1 | **Kámen, Nůžky, Papír (Terminál)** | Klasická hra proti počítači. | `random`, `input` |
