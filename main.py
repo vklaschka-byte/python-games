@@ -8,6 +8,7 @@ import filtr
 import heslo
 import pocasi
 import detektiv
+import denik
 
 def vycistit_obrazovku():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -26,6 +27,7 @@ def main():
         print("6. 🔐 Generátor hesel")
         print("7.🌦️ Předpověď počasí")
         print("8.🕵️‍♀️ Detekce obličejů na fotce")
+        print("9. 📝 Digitální deník")
         print("0. 🚪 Konec")
         print("==========================================")
         
@@ -50,6 +52,8 @@ def main():
             pocasi.main ()
         elif volba == "8":
             detektiv.main()
+        elif volba == "9":
+            denik.main()
         elif volba == "0":
             print("Díky, že používáš Python! Ahoj. 👋")
             break

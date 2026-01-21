@@ -5,6 +5,18 @@
 ![Status](https://img.shields.io/badge/Status-Aktivní_vývoj-success?style=for-the-badge)
 
 Vítejte v mé sbírce aplikací! Tento repozitář ukazuje mou cestu od základů Pythonu až po pokročilejší projekty s umělou inteligencí a zpracováním dat.
+Ve sbírce najdete:
+| Číslo | Název nástroje | Popis | Technologie |
+| :---: | :--- | :--- | :--- |
+| 1 | **Kámen, Nůžky, Papír (Terminál)** | Klasická hra proti počítači. | `random`, `input` |
+| 2 | **Kámen, Nůžky, Papír (Web)** | Moderní verze s tlačítky v prohlížeči. | `streamlit` |
+| 3 | **Všeználek (Wiki Bot)** | Vyhledá a shrne info z české Wikipedie. | `wikipedia` |
+| 4 | **Robotický Hlasatel** | Přečte text a uloží ho jako MP3. | `gTTS` (Google TTS) |
+| 5 | **Černobílý Filtr** | Okamžitá úprava fotek do odstínů šedi. | `Pillow` (PIL) |
+| 6 | **Generátor Hesel** | Vytváří bezpečná a silná hesla. | `string`, `random` |
+| 7 | **Rosnička (Počasí)** | Aktuální data a předpověď pro jakékoliv město. | `requests`, API |
+| 8 | **Detektiv (Face Detection)** | Najde lidské tváře na fotce a označí je. | `OpenCV` (Computer Vision) |
+| 9 | **Digitální Deník** | Ukládá poznámky s časovým razítkem do souboru. | `datetime`, `open` |
 
 ---
 
