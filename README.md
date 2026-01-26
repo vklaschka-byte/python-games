@@ -18,8 +18,7 @@ Ve sbírce najdete:
 | 7 | **Rosnička (Počasí)** | Aktuální data a předpověď pro jakékoliv město. | `requests`, API |
 | 8 | **Detektiv (Face Detection)** | Najde lidské tváře na fotce a označí je. | `OpenCV` (Computer Vision) |
 | 9 | **Digitální Deník** | Ukládá poznámky s časovým razítkem do souboru. | `datetime`, `open` |
-| 10 | **Hangman Game** | Guess the word before the stickman hangs. | `loops`, `lists` |
-
+| 10 | **Šibenice** | Uhádni slovo, než se panáček oběsí| `loops`, `lists` |
 ---
 
 ## 🚀 RYCHLÝ START
