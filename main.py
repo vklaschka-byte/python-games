@@ -10,6 +10,7 @@ import pocasi
 import detektiv
 import denik
 import sibenice
+import piskvorky
 
 def vycistit_obrazovku():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -30,6 +31,7 @@ def main():
         print("8.🕵️‍♀️ Detekce obličejů na fotce")
         print("9. 📝 Digitální deník")
         print("10. 💀 Hra: Šibenice")
+        print("11.❌ Hra: Piškvorky (Tic-Tac-Toe)")
         print("0. 🚪 Konec")
         print("==========================================")
         
@@ -58,6 +60,8 @@ def main():
             denik.main() 
         elif volba == "10":
             sibenice.main()
+        elif volba == "11"
+            piskvorky.main()
         elif volba == "0":
             print("Díky, že používáš Python! Ahoj. 👋")
             break

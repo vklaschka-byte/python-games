@@ -19,6 +19,7 @@ Ve sbírce najdete:
 | 8 | **Detektiv (Face Detection)** | Najde lidské tváře na fotce a označí je. | `OpenCV` (Computer Vision) |
 | 9 | **Digitální Deník** | Ukládá poznámky s časovým razítkem do souboru. | `datetime`, `open` |
 | 10 | **Šibenice** | Uhádni slovo, než se panáček oběsí| `loops`, `lists` |
+| 11 | **Tic-Tac-Toe** | Klasická 3x3 strategiská hra pro dva hráče. | `lists`, `logic` |
 ---
 
 ## 🚀 RYCHLÝ START
