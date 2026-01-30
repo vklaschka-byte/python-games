@@ -11,6 +11,7 @@ import detektiv
 import denik
 import sibenice
 import piskvorky
+import blackjack
 
 def vycistit_obrazovku():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -32,10 +33,11 @@ def main():
         print("9. 📝 Digitální deník")
         print("10. 💀 Hra: Šibenice")
         print("11.❌ Hra: Piškvorky (Tic-Tac-Toe)")
+        print("12. 🃏 Hra: Blackjack (21)")
         print("0. 🚪 Konec")
         print("==========================================")
         
-        volba = input("Vyberte možnost (0-6): ")
+        volba = input("Vyberte možnost (0-13): ")
 
         print("\nSpouštím...\n")
 
@@ -60,8 +62,10 @@ def main():
             denik.main() 
         elif volba == "10":
             sibenice.main()
-        elif volba == "11"
+        elif volba == "11":
             piskvorky.main()
+        elif volba == "12":
+            blackjack.main()
         elif volba == "0":
             print("Díky, že používáš Python! Ahoj. 👋")
             break
