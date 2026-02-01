@@ -20,7 +20,8 @@ Ve sbírce najdete:
 | 9 | **Digitální Deník** | Ukládá poznámky s časovým razítkem do souboru. | `datetime`, `open` |
 | 10 | **Šibenice** | Uhádni slovo, než se panáček oběsí| `loops`, `lists` |
 | 11 | **Tic-Tac-Toe** | Klasická 3x3 strategiská hra pro dva hráče. | `lists`, `logic` |
-| 12 | **Blackjack (21)** | Card game where you try to beat the dealer. | `loops`, `logic` |
+| 12 | **Blackjack (21)** | Karetní hra, ve které se snažíte porazit krupiéra. | `loops`, `logic` |
+| 13 | **Býci & Krávy** | Rozluštit čtyřmístný tajný kód pomocí logiky. | `lists`, `loops` |
 ---
 
 ## 🚀 RYCHLÝ START
