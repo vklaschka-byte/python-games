@@ -23,6 +23,7 @@ Ve sbírce najdete:
 | 12 | **Blackjack (21)** | Karetní hra, ve které se snažíte porazit krupiéra. | `loops`, `logic` |
 | 13 | **Býci & Krávy** | Rozluštit čtyřmístný tajný kód pomocí logiky. | `lists`, `loops` |
 | 14 | **Měnová kalkulačka** | Převádí CZK do jiných měn pomocí aktuálních kurzů. | `requests`, `json` |
+| 15 | **ATM Simulator** | Správa zůstatku na bankovním účtu pomocí ochrany PINem. | `json`, `file I/O` |
 ---
 
 ## 🚀 RYCHLÝ START

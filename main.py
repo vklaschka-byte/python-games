@@ -14,6 +14,7 @@ import piskvorky
 import blackjack
 import logik
 import kurzy
+import bankomat
 
 def vycistit_obrazovku():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -38,10 +39,11 @@ def main():
         print("12. 🃏 Hra: Blackjack (21)")
         print("13. 🐮 Hra: Býci a Krávy (Logik)")
         print("14.💱 Měnová kalkulačka (Live kurzy)")
+        print("15.🏦 Bankomat (ATM Simulator)")
         print("0. 🚪 Konec")
         print("==========================================")
         
-        volba = input("Vyberte možnost (0-13): ")
+        volba = input("Vyberte možnost (0-15): ")
 
         print("\nSpouštím...\n")
 
@@ -74,6 +76,8 @@ def main():
             logik.main()
         elif volba == "14":
             kurzy.main()
+        elif volba == "15":
+            bankomat.main()
         elif volba == "0":
             print("Díky, že používáš Python! Ahoj. 👋")
             break
