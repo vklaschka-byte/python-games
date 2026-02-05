@@ -22,6 +22,7 @@ Ve sbírce najdete:
 | 11 | **Tic-Tac-Toe** | Klasická 3x3 strategiská hra pro dva hráče. | `lists`, `logic` |
 | 12 | **Blackjack (21)** | Karetní hra, ve které se snažíte porazit krupiéra. | `loops`, `logic` |
 | 13 | **Býci & Krávy** | Rozluštit čtyřmístný tajný kód pomocí logiky. | `lists`, `loops` |
+| 14 | **Měnová kalkulačka** | Převádí CZK do jiných měn pomocí aktuálních kurzů. | `requests`, `json` |
 ---
 
 ## 🚀 RYCHLÝ START
