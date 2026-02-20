@@ -24,6 +24,7 @@ Ve sbírce najdete:
 | 13 | **Býci & Krávy** | Rozluštit čtyřmístný tajný kód pomocí logiky. | `lists`, `loops` |
 | 14 | **Měnová kalkulačka** | Převádí CZK do jiných měn pomocí aktuálních kurzů. | `requests`, `json` |
 | 15 | **ATM Simulator** | Správa zůstatku na bankovním účtu pomocí ochrany PINem. | `json`, `file I/O` |
+| 16 | **QR Code Generator** | Převede libovolný text nebo URL adresu na skenovatelný QR kód. | `qrcode`, `Pillow` |
 ---
 
 ## 🚀 RYCHLÝ START
