@@ -16,6 +16,7 @@ import logik
 import kurzy
 import bankomat
 import qr_generator
+import kviz
 
 def vycistit_obrazovku():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -42,10 +43,11 @@ def main():
         print("14.💱 Měnová kalkulačka (Live kurzy)")
         print("15.🏦 Bankomat (ATM Simulator)")
         print("16. 📱 Generátor QR kódů")
+        print("17. 🧠 Vědomostní Kvíz")
         print("0. 🚪 Konec")
         print("==========================================")
         
-        volba = input("Vyberte možnost (0-16): ")
+        volba = input("Vyberte možnost (0-17): ")
 
         print("\nSpouštím...\n")
 
@@ -82,6 +84,8 @@ def main():
             bankomat.main()
         elif volba == "16":
             qr_generator.main()
+        elif volba == "17":
+            kviz.main()
         elif volba == "0":
             print("Díky, že používáš Python! Ahoj. 👋")
             break

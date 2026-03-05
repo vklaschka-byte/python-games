@@ -25,6 +25,7 @@ Ve sbírce najdete:
 | 14 | **Měnová kalkulačka** | Převádí CZK do jiných měn pomocí aktuálních kurzů. | `requests`, `json` |
 | 15 | **ATM Simulator** | Správa zůstatku na bankovním účtu pomocí ochrany PINem. | `json`, `file I/O` |
 | 16 | **QR Code Generator** | Převede libovolný text nebo URL adresu na skenovatelný QR kód. | `qrcode`, `Pillow` |
+| 17 | **Vědomostní kvíz** | Kvíz s výběrem odpovědí z všeobecných znalostí. | `dictionaries`, `loops` |
 ---
 
 ## 🚀 RYCHLÝ START
