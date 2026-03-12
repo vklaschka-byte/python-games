@@ -18,6 +18,7 @@ import bankomat
 import qr_generator
 import kviz
 import morseovka
+import pomodoro
 
 def vycistit_obrazovku():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -49,7 +50,7 @@ def main():
         print("0. 🚪 Konec")
         print("==========================================")
         
-        volba = input("Vyberte možnost (0-18): ")
+        volba = input("Vyberte možnost (0-19): ")
 
         print("\nSpouštím...\n")
 
@@ -90,6 +91,8 @@ def main():
             kviz.main()
         elif volba == "18":
             morseovka.main()
+        elif volba == "19":
+            pomodoro.main()
         elif volba == "0":
             print("Díky, že používáš Python! Ahoj. 👋")
             break
