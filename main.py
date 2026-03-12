@@ -17,6 +17,7 @@ import kurzy
 import bankomat
 import qr_generator
 import kviz
+import morseovka
 
 def vycistit_obrazovku():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -44,10 +45,11 @@ def main():
         print("15.🏦 Bankomat (ATM Simulator)")
         print("16. 📱 Generátor QR kódů")
         print("17. 🧠 Vědomostní Kvíz")
+        print("18. 📡 Překladač: Morseova abeceda")
         print("0. 🚪 Konec")
         print("==========================================")
         
-        volba = input("Vyberte možnost (0-17): ")
+        volba = input("Vyberte možnost (0-18): ")
 
         print("\nSpouštím...\n")
 
@@ -86,6 +88,8 @@ def main():
             qr_generator.main()
         elif volba == "17":
             kviz.main()
+        elif volba == "18":
+            morseovka.main()
         elif volba == "0":
             print("Díky, že používáš Python! Ahoj. 👋")
             break

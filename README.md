@@ -26,6 +26,7 @@ Ve sbírce najdete:
 | 15 | **ATM Simulator** | Správa zůstatku na bankovním účtu pomocí ochrany PINem. | `json`, `file I/O` |
 | 16 | **QR Code Generator** | Převede libovolný text nebo URL adresu na skenovatelný QR kód. | `qrcode`, `Pillow` |
 | 17 | **Vědomostní kvíz** | Kvíz s výběrem odpovědí z všeobecných znalostí. | `dictionaries`, `loops` |
+| 18 | **Morseovka** | Překládá text do Morseovy abecedy a naopak. | `dictionaries`, `strings` |
 ---
 
 ## 🚀 RYCHLÝ START
