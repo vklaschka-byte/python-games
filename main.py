@@ -19,6 +19,7 @@ import qr_generator
 import kviz
 import morseovka
 import pomodoro
+import bludiste
 
 def vycistit_obrazovku():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -47,10 +48,12 @@ def main():
         print("16. 📱 Generátor QR kódů")
         print("17. 🧠 Vědomostní Kvíz")
         print("18. 📡 Překladač: Morseova abeceda")
+        print("19. 🍅 Pomodoro Časovač (Produktivita)")
+        print("20. 🗺️ Generátor a Řešitel Bludiště")
         print("0. 🚪 Konec")
         print("==========================================")
         
-        volba = input("Vyberte možnost (0-19): ")
+        volba = input("Vyberte možnost (0-20): ")
 
         print("\nSpouštím...\n")
 
@@ -93,6 +96,8 @@ def main():
             morseovka.main()
         elif volba == "19":
             pomodoro.main()
+        elif volba == "20":
+            bludiste.main()
         elif volba == "0":
             print("Díky, že používáš Python! Ahoj. 👋")
             break

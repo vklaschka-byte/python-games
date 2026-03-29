@@ -28,6 +28,7 @@ Ve sbírce najdete:
 | 17 | **Vědomostní kvíz** | Kvíz s výběrem odpovědí z všeobecných znalostí. | `dictionaries`, `loops` |
 | 18 | **Morseovka** | Překládá text do Morseovy abecedy a naopak. | `dictionaries`, `strings` |
 | 19 | **Pomodoro Timer** | Časovač soustředění a přestávky s odpočítáváním v reálném čase na terminálu. | `time`, `formatting` |
+| 20 | **Průzkumník bludiště** | Vizualizér algoritmů pro hledání cesty s využitím logiky BFS. | `algorithms`, `deque` |
 ---
 
 ## 🚀 RYCHLÝ START
